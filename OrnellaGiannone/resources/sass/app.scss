@@ -1,1 +1,16 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Font-awesome
+//@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+// Variables
+@import 'variables';
+
+// Common
+@import 'common';
+
+//partials
+@import 'partials/navbar';
+@import 'partials/footer';
+@import'partials/main';

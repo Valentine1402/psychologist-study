@@ -1,0 +1,44 @@
+main{
+    background-color: $myMain;
+}
+
+.box_main{
+
+    display: flex;
+    padding-left: 70px;
+
+    .box_main_left{
+        flex-basis: 40%; 
+        h1{
+            color: $white;
+            padding: 20px 70px;
+        }
+
+        img{
+            border-radius: 50%;
+            max-height: 500px;
+            padding: 20px;
+        }
+    }
+    
+    .box_main_right{
+        flex-basis: 60%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h3{
+            color: $white;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        p{
+            color: $lightPink;
+            text-align: center;
+            font-size: 17px;
+        }
+    }
+  
+}
