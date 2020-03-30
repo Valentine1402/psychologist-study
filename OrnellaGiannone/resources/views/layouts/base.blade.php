@@ -18,6 +18,8 @@
 
     <main>
         @yield('main')
+        @yield('contact')
+        @Yield('whoIAm')
 
     </main>
 

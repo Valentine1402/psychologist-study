@@ -96,7 +96,7 @@ main {
 .my_footer .my_footer-box .my_title-footer {
   text-align: center;
   font-weight: bold;
-  color: #ffed4a;
+  color: #f0e883;
 }
 
 .my_footer .my_footer-box .my_footer-up {
@@ -109,7 +109,6 @@ main {
 .my_footer .my_footer-box .my_footer-up .my_footer-right {
   flex-basis: 50%;
   text-align: center;
-  border: 2px solid #ffed4a;
   border-radius: 10px;
   margin: 10px;
 }
@@ -126,7 +125,7 @@ main {
 
 .my_footer .my_footer-box .my_footer-down p,
 .my_footer .my_footer-box .my_footer-down a {
-  color: #ffed4a;
+  color: #f0e883;
 }
 
 .my_footer .my_footer-box .my_footer-down ul li {
@@ -135,7 +134,7 @@ main {
 }
 
 .my_footer .my_footer-box .my_footer-down ul li a {
-  color: #ffed4a;
+  color: #f0e883;
 }
 
 main {
@@ -176,5 +175,33 @@ h2 {
   text-align: center;
   font-size: 27px;
   font-family: cursive;
+}
+
+.whoIamBox {
+  display: flex;
+  padding: 50px 30px;
+}
+
+.whoIamBox .box_who_left {
+  flex-basis: 40%;
+}
+
+.whoIamBox .box_who_left img {
+  border-radius: 10%;
+  max-height: 400px;
+  padding: 20px;
+}
+
+.whoIamBox .box_who_right {
+  flex-basis: 60%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.whoIamBox .box_who_right p {
+  color: #cfcbdc;
+  text-align: center;
 }
 

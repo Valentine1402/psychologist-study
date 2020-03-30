@@ -1,0 +1,28 @@
+.whoIamBox{
+    display: flex;
+    padding: 50px  30px;
+
+     .box_who_left{
+        flex-basis: 40%; 
+      
+        img{
+            border-radius: 10%;
+            max-height: 400px;
+            padding: 20px;
+        }
+    }
+
+    .box_who_right{
+        flex-basis: 60%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p{
+            color: $lightPink;
+            text-align: center;
+           
+        }
+    }
+}

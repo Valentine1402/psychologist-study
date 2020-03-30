@@ -10,7 +10,7 @@
         .my_title-footer{
                     text-align: center;
                     font-weight: bold;
-                    color: $yellow;
+                    color: $my_yellow;
                 }
 
             .my_footer-up {
@@ -22,7 +22,7 @@
                 .my_footer_left, .my_footer-right {
                     flex-basis: 50%;
                     text-align: center;
-                    border: 2px solid $yellow;
+                //    border: 2px solid $yellow;
                     border-radius: 10px;
                     margin: 10px;
                     
@@ -39,7 +39,7 @@
             justify-content: space-between;
 
             p , a {
-                color: $yellow;   
+                color: $my_yellow;   
             }
 
             ul li {
@@ -47,7 +47,7 @@
                 display: inline;
 
                 a {
-                    color: $yellow;
+                    color: $my_yellow;
                 }
             }
         }
