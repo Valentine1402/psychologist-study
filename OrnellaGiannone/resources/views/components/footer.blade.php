@@ -41,7 +41,7 @@
                      
             <ul>
                 <li><a href=""><i class="fab fa-instagram ico"></i></a></li>
-                <li><a href=""><i class="fab fa-twitter ico"></i></a></li>
+                <li><a href=""><i class="fab fa-skype"></i></a></li>
                 <li><a href=""><i class="fab fa-linkedin"></i></a></li>
             </ul>
             

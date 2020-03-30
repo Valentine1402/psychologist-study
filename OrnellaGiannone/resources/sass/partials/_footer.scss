@@ -33,7 +33,7 @@
                 .my_title-footer {
                     font-size: 16px;
                     font-weight: bold;
-                    color: $myPink;
+                    color: $yellow;
                 }
             }
         }
@@ -44,7 +44,7 @@
             justify-content: space-between;
 
             p , a {
-                color: $myPink;   
+                color: $yellow;   
             }
 
             ul li {
@@ -52,7 +52,7 @@
                 display: inline;
 
                 a {
-                    color: $myPink
+                    color: $yellow;
                 }
             }
         }
