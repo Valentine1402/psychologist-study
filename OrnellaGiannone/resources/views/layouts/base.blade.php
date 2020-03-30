@@ -20,6 +20,7 @@
         @yield('main')
         @yield('contact')
         @Yield('whoIAm')
+        @Yield('whoSpeak')
 
     </main>
 

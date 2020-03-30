@@ -1,15 +1,11 @@
 main{
     background-color: $myMain;
 }
-  h2{
-            color: $white;
-            padding: 20px 70px;
-            text-align: center;
-        }
 
 .box_main{
     display: flex;
     padding-left: 70px;
+    padding-top: 50px;
 
     .box_main_left{
         flex-basis: 40%; 
@@ -23,12 +19,16 @@ main{
     
     .box_main_right{
         flex-basis: 60%;
-        padding: 40px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+
+        h1 , h4{
+            color: $my_yellow;
+            text-align: center;
+        }
 
         p{
+            margin-top: 70px;
             color: $lightPink;
             text-align: center;
             font-size: 27px;

@@ -6,15 +6,15 @@
     </div>
   <div class="nav_item">  
     <div class="navbar-left">      
-        <a href=""><img src="/images/logo.png" alt="logo"></a>
+        <a href="{{ route('home') }}"><img src="/images/logo.png" alt="logo"></a>
     </div>
     <div class="navbar-right">
         <ul class="menu">
-            <li><a href="{{ route('home') }}""">Home</a></li>
-            <li><a href="{{ route('chiSono') }}""">Chi sono</a></li>
-            <li><a href="">Lo Studio</a></li>
-            <li><a href="">La Psicoterapia</a></li>
-            <li><a href="{{ route('contatti') }}"">Contatti</a></li>
+            <li><a href="{{ route('home') }}">Home</a></li>
+            <li><a href="{{ route('chiSono') }}">Chi sono</a></li>
+            <li><a href="{{ route('aChiMiRivolgo') }}">Lo Studio</a></li>
+            <li><a href="{{ route('aChiMiRivolgo') }}">La Psicoterapia</a></li>
+            <li><a href="{{ route('contatti') }}">Contatti</a></li>
         </ul>
     </div>
   </div>

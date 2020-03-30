@@ -141,15 +141,10 @@ main {
   background-color: #18293fda;
 }
 
-h2 {
-  color: #ffffff;
-  padding: 20px 70px;
-  text-align: center;
-}
-
 .box_main {
   display: flex;
   padding-left: 70px;
+  padding-top: 50px;
 }
 
 .box_main .box_main_left {
@@ -164,17 +159,65 @@ h2 {
 
 .box_main .box_main_right {
   flex-basis: 60%;
-  padding: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+
+.box_main .box_main_right h1,
+.box_main .box_main_right h4 {
+  color: #f0e883;
+  text-align: center;
 }
 
 .box_main .box_main_right p {
+  margin-top: 70px;
   color: #cfcbdc;
   text-align: center;
   font-size: 27px;
   font-family: cursive;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #f0e883;
+  padding: 30px;
+}
+
+.whoContactBox {
+  display: flex;
+  padding: 50px 30px;
+}
+
+.whoContactBox .box_Contact_left {
+  flex-basis: 40%;
+}
+
+.whoContactBox .box_Contact_left img {
+  border-radius: 10%;
+  max-height: 400px;
+  padding: 20px;
+}
+
+.whoContactBox .box_Contact_right {
+  flex-basis: 60%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whoContactBox .box_Contact_right ul li a {
+  color: #cfcbdc;
+  text-align: center;
+  margin: 50px;
+  font-size: larger;
+}
+
+.whoContactBox .box_Contact_right .my_contact_title {
+  font-weight: bold;
+  color: #f0e883;
+  padding-bottom: 10px;
 }
 
 .whoIamBox {
@@ -203,5 +246,14 @@ h2 {
 .whoIamBox .box_who_right p {
   color: #cfcbdc;
   text-align: center;
+}
+
+.speak {
+  padding: 30px;
+}
+
+p {
+  text-align: center;
+  color: #cfcbdc;
 }
 
