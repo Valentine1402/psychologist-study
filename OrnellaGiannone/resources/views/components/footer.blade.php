@@ -1,47 +1,38 @@
 <div class="my_footer">
     <div class="my_footer-box">
-        <div class="my_footer-up">
-            <ul>
-                <li ><a class="my_title-footer" href="">A Milano</a></li>
-                <li><a href="">Studio Reverie</a></li>
-                <li><a href="">studioreveriemilano@gmail.com</a></li>
-                <li><a href="">+39 375 5268067</a></li>
-                <li><a href="">Viale Papiniano 22/A</a></li>
-                <li><a href="">Milano, 20123</a></li>
-                <li><a href="">Italia</a></li>                
-            </ul>
-                 <ul>
-                <li><a class="my_title-footer" href="">Mezzi Pubblici</a></li>
-                <li><a href=""><i class="fas fa-subway"></i> MM2 S.Agostino a 50 mt</a></li>
-                <li><a href=""><i class="fas fa-subway"></i> Tram 10 a 5 mt </a></li>
-                <li><a href=""><i class="fas fa-subway"></i> Tram 14 a 50 mt</a></li>
-                <li><a href=""><i class="fas fa-subway"></i> Bus 94 a 300mt </a></li>
-                <li><a href=""><i class="fas fa-bicycle"></i> BikeMi: Stazione S.Agostino</a></li>
-                
-            </ul>
-            <ul>
-                <li><a class="my_title-footer" href="">A Rozzano</a></li>
-                <li><a href="">Studio Psicologia Ornella Giannone</a></li>
-                <li><a href="">studioreveriemilano@gmail.com</a></li>
-                <li><a href=""> +39 3496376947</a></li>
-                <li><a href="">Viale Roma 18</a></li>
-                <li><a href="">Rozzano, 20099</a></li>
-                <li><a href="">Milano</a></li>
-            </ul>
-       
-            <ul>
-                <li><a class="my_title-footer" href="">Mezzi Pubblici</a></li>
-                <li><a href=""><i class="fas fa-subway"></i> Tram 15 a 500 mt </a></li>
-                <li><a href=""><i class="fas fa-subway"></i> Bus 201 a 5 mt</a></li>
-            </ul>
+         <h2 class="my_title-footer">Ricevo su appuntamento negli studi di Milano e Rozzano.</h2>
+        <div class="my_footer-up"> 
+            <div class="my_footer_left">
+                <h2><a class="my_title-footer" href="">A Milano</a></h2>
+                <p><a class="list_footer"  href="https://www.studioreveriemilano.com/">Studio Reverie</a></p>
+                <a class="list_footer"  href="">studioreveriemilano@gmail.com</a>
+                    <p class="list_footer" >+39 3496376947</p>
+                <a class="list_footer" href="">
+                    <p>Viale Papiniano 22/A</p>
+                    <p>Milano, 20123</p>
+                    <p>Italia</p>
+                </a>
+
+            </div>
+            <div class="my_footer-right">
+                <h2><a class="my_title-footer" href="">A Rozzano</a></h2>
+                <p ><a class="list_footer" href="https://www.diagnositerapiarozzano.it/">Studio Diagnosi e Terapia nel Ciclo di Vita</a></p>
+                <a class="list_footer" href="">giannone.ornella@libero.it</a>       
+                    <p class="list_footer">+39 3496376947</p>
+                <a class="list_footer" href="">
+                    <p>Via Roma 87</p>
+                    <p>Rozzano Mi, 20089</p>
+                    <p>Italia</p>
+                </a>
+            </div>
         </div>
         <div class="my_footer-down">
             
             <p>©2020 Dott.sa Ornella Giannone | Powered by  <a href="https://www.linkedin.com/in/valentinagiannone/">Valentine</a> | All rights reserved </p>
                      
             <ul>
-                <li><a href=""><i class="fab fa-instagram ico"></i></a></li>
                 <li><a href=""><i class="fab fa-skype"></i></a></li>
+                <li><a href=""><i class="fab fa-facebook ico"></i></a></li>    
                 <li><a href=""><i class="fab fa-linkedin"></i></a></li>
             </ul>
             

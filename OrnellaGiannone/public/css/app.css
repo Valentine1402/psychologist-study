@@ -93,45 +93,33 @@ main {
   align-items: center;
 }
 
-.my_footer .my_footer-box .my_footer-up {
-  width: 100%;
-  padding-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.my_footer .my_footer-box .my_footer-up ul {
-  width: 25%;
-}
-
-@media screen and (max-width: 999px) {
-  .my_footer .my_footer-box .my_footer-up ul {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 599px) {
-  .my_footer .my_footer-box .my_footer-up ul {
-    width: 100%;
-  }
-}
-
-.my_footer .my_footer-box .my_footer-up ul li {
-  margin: 15px 0;
-}
-
-.my_footer .my_footer-box .my_footer-up ul li a {
-  color: #ffffff;
-}
-
-.my_footer .my_footer-box .my_footer-up ul .my_title-footer {
-  font-size: 16px;
+.my_footer .my_footer-box .my_title-footer {
+  text-align: center;
   font-weight: bold;
   color: #ffed4a;
 }
 
+.my_footer .my_footer-box .my_footer-up {
+  width: 100%;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.my_footer .my_footer-box .my_footer-up .my_footer_left,
+.my_footer .my_footer-box .my_footer-up .my_footer-right {
+  flex-basis: 50%;
+  text-align: center;
+  border: 2px solid #ffed4a;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.my_footer .my_footer-box .my_footer-up .list_footer {
+  color: #ffffff;
+}
+
 .my_footer .my_footer-box .my_footer-down {
-  padding: 20px 0;
+  padding: 30px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -154,6 +142,12 @@ main {
   background-color: #18293fda;
 }
 
+h2 {
+  color: #ffffff;
+  padding: 20px 70px;
+  text-align: center;
+}
+
 .box_main {
   display: flex;
   padding-left: 70px;
@@ -161,11 +155,6 @@ main {
 
 .box_main .box_main_left {
   flex-basis: 40%;
-}
-
-.box_main .box_main_left h1 {
-  color: #ffffff;
-  padding: 20px 70px;
 }
 
 .box_main .box_main_left img {
@@ -182,15 +171,10 @@ main {
   justify-content: center;
 }
 
-.box_main .box_main_right h3 {
-  color: #ffffff;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
 .box_main .box_main_right p {
   color: #cfcbdc;
   text-align: center;
-  font-size: 17px;
+  font-size: 27px;
+  font-family: cursive;
 }
 

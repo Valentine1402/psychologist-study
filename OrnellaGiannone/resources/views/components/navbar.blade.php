@@ -2,7 +2,7 @@
   <div class="contact">
       <span>Dott.ssa Ornella Giannone</span>
       <span>Tel. +39 3496376947</span> 
-      <span>studioreveriemilano@gmail.com</span> 
+      <span>giannone.ornella@libero.it</span> 
     </div>
   <div class="nav_item">  
     <div class="navbar-left">      

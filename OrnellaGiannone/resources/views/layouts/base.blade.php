@@ -17,7 +17,7 @@
     
 
     <main>
-        @include('components.home')
+        @yield('main')
 
     </main>
 

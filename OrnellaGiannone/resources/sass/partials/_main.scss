@@ -1,19 +1,19 @@
 main{
     background-color: $myMain;
 }
+  h2{
+            color: $white;
+            padding: 20px 70px;
+            text-align: center;
+        }
 
 .box_main{
-
     display: flex;
     padding-left: 70px;
 
     .box_main_left{
         flex-basis: 40%; 
-        h1{
-            color: $white;
-            padding: 20px 70px;
-        }
-
+      
         img{
             border-radius: 50%;
             max-height: 500px;
@@ -28,16 +28,11 @@ main{
         flex-direction: column;
         justify-content: center;
 
-        h3{
-            color: $white;
-            padding-bottom: 10px;
-            text-align: center;
-        }
-
         p{
             color: $lightPink;
             text-align: center;
-            font-size: 17px;
+            font-size: 27px;
+            font-family: cursive;
         }
     }
   
