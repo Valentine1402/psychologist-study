@@ -1,7 +1,33 @@
 .speak{
-    padding: 30px;
-}
-p{
-    text-align: center;
+    padding: 10px 100px;
+
+    p {
+    text-align: justify;
     color: $lightPink;
+    }
+
+    ul li{
+        color: $lightPink;
+        margin-left: 15px;
+    }
 }
+
+
+
+//responsive zone 
+
+// smartwatch display < 749px
+ @media screen and (max-width: 749px){
+     .speak{
+        padding: 20px;
+         
+        h1{
+         font-size: 24px;
+        }
+
+       #speakTitle{
+           font-size: 20px;
+       } 
+    }
+    
+ }

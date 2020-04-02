@@ -4,8 +4,8 @@
         <div class="my_footer-up"> 
             <div class="my_footer_left">
                 <h2><a class="my_title-footer" href="">A Milano</a></h2>
-                <p><a class="list_footer"  href="https://www.studioreveriemilano.com/"> Presso lo Studio Reverie</a></p>
-                <a class="list_footer"  href="">studioreveriemilano@gmail.com</a>
+                <p><a class="list_footer"  href="https://www.studioreveriemilano.com/"> Studio Reverie</a></p>
+                <p><a class="list_footer"  href="mailto:giannone.ornella@libero.it">giannone.ornella@libero.it</a></p>
                     <p class="list_footer" >+39 3496376947</p>
                 <a class="list_footer" href="{{ route('contatti') }}"">
                     <p>Viale Papiniano 22/A</p>
@@ -16,8 +16,8 @@
             </div>
             <div class="my_footer-right">
                 <h2><a class="my_title-footer" href="">A Rozzano</a></h2>
-                <p ><a class="list_footer" href="https://www.diagnositerapiarozzano.it/">Studio Diagnosi e Terapia nel Ciclo di Vita</a></p>
-                <a class="list_footer" href="">giannone.ornella@libero.it</a>       
+                <p><a class="list_footer" href="https://www.diagnositerapiarozzano.it/">Studio Diagnosi e Terapia nel Ciclo di Vita</a></p>
+                <p><a class="list_footer"  href="mailto:giannone.ornella@libero.it">giannone.ornella@libero.it</a></p>
                     <p class="list_footer">+39 3496376947</p>
                 <a class="list_footer" href="{{ route('contatti') }}">
                     <p>Via Roma 87</p>

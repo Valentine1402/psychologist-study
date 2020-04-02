@@ -2,6 +2,12 @@
     display: flex;
     padding: 50px  30px;
 
+    h2{
+        @media screen and (min-width: 999px){
+                   display: none;
+                }     
+    }
+
      .box_who_left{
         flex-basis: 40%; 
       
@@ -21,8 +27,34 @@
 
         p{
             color: $lightPink;
-            text-align: center;
+            text-align: justify;
            
         }
     }
+}
+
+
+//responsive zone 
+
+ // smartwatch display < 749px
+@media screen and (max-width: 749px){
+
+    .whoIamBox{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5px;
+        max-width: 600px;
+        
+        img{
+            
+            max-height: 300px;
+            max-width:100% ;
+        }
+    }
+    
+    .down {
+          display: flex;
+        flex-direction: column;
+    }
+
 }

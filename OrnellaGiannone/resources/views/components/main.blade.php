@@ -1,11 +1,17 @@
     
-   
-   <div class="box_main">    
+   <div class="box_main_up">    
         <div class="box_main_left">  
-            <img src="https://static.wixstatic.com/media/f9c8c3_46e82bccd9b64508907da1f37c6f4075~mv2_d_2320_3088_s_2.jpg/v1/fill/w_800,h_800,al_c,q_85,usm_0.66_1.00_0.01/IMG_8387_JPG.webp" alt=""></div>
+            <img src="/images/ornella.webp" alt=""></div>
         <div class="box_main_right"> 
-            <h1>Studio di psicologia e psicoterapia.</h1>
-            <h4>Dott.ssa Ornella Giannone Psicologa</h4>    
-            <p>"La mente che si apre ad una nuova idea non torna mai alla dimensione precedente."</p>
+            <h1>Studio di psicologia e psicoterapia per adolescenti e adulti</h1>  
+            <h1>Dott.ssa Ornella Giannone</h1>       
+            <p>Svolgo consulenze psicologiche e prese in carico psicoterapiche con adolescenti/pre-adolescenti e i genitori, adulti in colloqui individuali, di coppia o in gruppo.</p>
+        </div>
+    </div>
+    <div class="box_main_down">
+        <h1>Prenota la tua prima visita</h1>
+        <p>Consulenze psicologiche per adolescenti/pre-adolescenti e i genitori,  adulti in colloqui individuali, di coppia o in gruppo a Milano.</p>
+        <div class="my_button">
+            <a href="mailto:giannone.ornella@libero.it">Contattami</a>
         </div>
     </div>

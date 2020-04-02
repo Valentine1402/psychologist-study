@@ -4,7 +4,6 @@ h1 , h2{
     padding: 30px;
 }
 
-
 .whoContactBox{
     display: flex;
     padding: 50px  30px;
@@ -25,19 +24,57 @@ h1 , h2{
         display: flex;
         justify-content: center;
         align-items: center;
-
+        
         ul li a{
             color: $lightPink;
             text-align: center;
             margin: 50px;
             font-size: larger;
+            
         }
-        
+
         .my_contact_title{               
-                    font-weight: bold;
-                    color: $my_yellow;
-                    padding-bottom: 10px;
-                }
+            font-weight: bold;
+            color: $my_yellow;
+            padding-bottom: 10px;
+         }
     }
       
+}
+
+//responsive zone 
+
+ // smartwatch display < 749px
+@media screen and (max-width: 749px){
+   
+    .whoContactBox{
+            padding: 0px  20px;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            
+        .box_Contact_right{
+            display: flex;
+            flex-direction: column-reverse;           
+            padding: 10px;
+                         
+            ul {
+                width: 100%;
+                margin-bottom:15px ;
+            }
+
+           .titleFooter{
+              font-size: x-small;
+           }
+           
+        }
+            
+        .box_Contact_left > iframe{
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+    }
+   
+
 }

@@ -28,5 +28,8 @@
     <footer>
          @include('components.footer')
     </footer>
+    
+    @yield('script')
+    <script src="{{ mix('js/dropdown.js')}}"></script>
 </body>
 </html>
