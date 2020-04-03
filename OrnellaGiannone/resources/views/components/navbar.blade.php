@@ -1,7 +1,7 @@
 <div class="my_nav">
   <div class="contact">
       <span>Dott.ssa Ornella Giannone</span>
-      <span>Tel. +39 3496376947</span> 
+      <span><a href="Tel:+393496376947">+39 3496376947</a></span> 
       <span><a href="mailto:giannone.ornella@libero.it">giannone.ornella@libero.it</a></span> 
   </div>
   <div class="nav_item">  
@@ -13,7 +13,7 @@
             <li><a href="{{ route('home') }}">Home</a></li>
             <li><a href="{{ route('chiSono') }}">Chi sono</a></li>
             <li><a href="{{ route('aChiMiRivolgo') }}">Aree di attività</a></li>
-            <li><a href="{{ route('aChiMiRivolgo') }}">Siti amici</a></li>
+            <li><a href="{{ route('friend') }}">Siti amici</a></li>
             <li><a href="{{ route('contatti') }}">Contatti</a></li>
         </ul>
         <div class="dropdown-menu">
@@ -23,8 +23,8 @@
             <ul class="menu">
               <li><a href="{{ route('home') }}">Home</a></li>  
                 <li><a href="{{ route('chiSono') }}">Chi sono</a></li>
-                <li><a href="{{ route('aChiMiRivolgo') }}">Cosa faccio</a></li>
-                <li><a href="{{ route('aChiMiRivolgo')}}">A chi mi rivolgo</a></li>
+                <li><a href="{{ route('aChiMiRivolgo') }}">Aree di attività</a></li>
+                <li><a href="{{ route('friend')}}">Siti amici</a></li>
                 <li><a href="{{ route('contatti')}}">Contatti</a></li>
             </ul>
           </div>

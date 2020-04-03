@@ -5,7 +5,7 @@ main{
 .box_main_up{
     display: flex;
     align-items: center;
-    height: 530px;
+    height: 600px;
 
     .box_main_left{
         flex-basis: 30%; 
@@ -25,11 +25,12 @@ main{
         h1 {
             color: $my_yellow;
             text-align: center;
-            padding: 5px;
+            padding: 0;
+            font-size: 40px;
         }
 
         p{
-            padding-top: 20px;
+            padding-top: 35px;
             color: $lightPink;
             text-align: center;
             font-size: 27px;
@@ -38,7 +39,8 @@ main{
 }
 
 .box_main_down{
-   // border-top: 2px solid $my_yellow;
+
+    border-top: 2px solid $my_yellow;
     background-color:  #717788;
 
     h1{
@@ -51,8 +53,12 @@ main{
         text-align: center;
     }
 
-    .my_button {
-        
+    .btn_group{
+        display: flex;
+        justify-content: center;
+    }
+
+    .my_button {      
         text-align: center;      
         padding: 40px;
     
@@ -64,28 +70,37 @@ main{
             border-radius: 8px;
             padding: 10px;
         }
+
+        i{
+            font-size: 20px;
+            padding-right:10px;
+            color: $my_yellow;
+        }
     }
 }
+
+
 //responsive zone 
 
  // smartwatch display < 749px
 @media screen and (max-width: 749px) {
    
     main{
-        margin-top:50px;     
+        margin-top:70px;     
     }     
 
-    .box_main{
+    .box_main_up{
         padding: 10px;
-        flex-direction: column-reverse;
+        flex-direction: column;
 
         .box_main_right{
-            h1{
+
+            h1 , p{
                 font-size: medium;
             }
 
             p{
-                margin-top: 30px;
+               // margin-top: 30px;
             }
         }
 

@@ -12,16 +12,16 @@
             <ul>
                 <li><a class="my_contact_title" href="">Studio Reverie</a></li>
                 <li><a href="mailto:giannone.ornella@libero.it">giannone.ornella@libero.it</a></li>
-                <li><a href="">+39 3496376947</a></li>
+                <li><a href="Tel:+393496376947">+39 3496376947</a></li>
                 <li><a href="">Viale Papiniano 22/A</a></li>
                 <li><a href="">Milano, 20123</a></li>
                 <li><a href="">Italia</a></li>                
             </ul>
             <ul>
                 <li><a class="my_contact_title" href="">Mezzi pubblici</a></li>
-                <li><a href=""><i class="fas fa-subway"></i> MM2 S.Agostino a 50 mt</a></li>
-                <li><a href=""><i class="fas fa-subway"></i> Tram 10 a 5 mt </a></li>
-                <li><a href=""><i class="fas fa-subway"></i> Tram 14 a 50 mt</a></li>
+                <li><a href=""><i class="fas fa-subway"></i> MM2 S.Agostino a 50mt</a></li>
+                <li><a href=""><i class="fas fa-subway"></i> Tram 10 a 5mt </a></li>
+                <li><a href=""><i class="fas fa-subway"></i> Tram 14 a 50mt</a></li>
                 <li><a href=""><i class="fas fa-subway"></i> Bus 94 a 300mt </a></li>
                 <li><a href=""><i class="fas fa-bicycle"></i> BikeMi: S.Agostino</a></li>
                 
@@ -32,11 +32,11 @@
 <h2>Rozzano</h2>
 
 <div class="whoContactBox down">  
-    <div class="box_Contact_right ">
+    <div class="box_Contact_right">
             <ul>
                 <li><a class="my_contact_title titleFooter" href="">Studio Diagnosi e Terapia nel Ciclo di Vita</a></li>
-                <li><a href="mailto:giannone.ornella@libero.it">Contatto email</a></li>
-                <li><a href="">+39 3496376947</a></li>
+                <li><a href="mailto:giannone.ornella@libero.it">giannone.ornella@libero.it</a></li>
+                <li><a href="Tel:+393496376947">+39 3496376947</a></li>
                 <li><a href="">Via Roma, 87</a></li>
                 <li><a href="">Rozzano, Mi 20099</a></li>
             </ul>
@@ -46,7 +46,7 @@
                 <li><a href=""><i class="fas fa-subway"></i> Tram 15 a 500 mt </a></li>
                 <li><a href=""><i class="fas fa-subway"></i> Bus 201 a 5 mt</a></li>
                 <li><a href=""><i class="fas fa-subway"></i> Bus 329 a 60 mt</a></li>
-                <li><a href=""><i class=""></i> </a></li>
+                <li><a href=""><i class="fas fa-taxi"></i> Taxi a 30 mt</a></li>
             </ul>
     </div>
      <div class="box_Contact_left">

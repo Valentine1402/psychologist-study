@@ -44,11 +44,10 @@
 
             ul li {
                 margin-left: 15px;
-                display: inline;
-
-                a {
-                    color: $my_yellow;
-                }
+                display: inline; 
+            }
+            i{
+                font-size: 20px;
             }
         }
     }
@@ -59,9 +58,9 @@
 // smartwatch display < 749px
  @media screen and (max-width: 749px){
      .my_footer{
-          display: flex;
-         flex-direction: column;
-         align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         .my_footer-box{
         
             .my_footer-up{
@@ -71,15 +70,12 @@
                 flex-direction: column;
                 align-items: center;
                 p{
-                    font-size: smaller;
+                    font-size: 11px;
                 }
                 ul li a i {
                     margin-top: 20px;
                 }
             }
-       
-        
+        }
      }
-     }
-     
  }

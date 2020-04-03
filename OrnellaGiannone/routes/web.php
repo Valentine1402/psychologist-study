@@ -28,3 +28,7 @@ Route::get('/whoAm', function () {
 Route::get('/whoSpeak', function () {
     return view('pages.whoSpeak');
 })->name('aChiMiRivolgo');
+
+Route::get('/friends', function () {
+    return view('pages.friends');
+})->name('friend');

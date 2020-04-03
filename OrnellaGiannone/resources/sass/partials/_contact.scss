@@ -6,7 +6,7 @@ h1 , h2{
 
 .whoContactBox{
     display: flex;
-    padding: 50px  30px;
+    padding: 50px  40px;
 
      .box_Contact_left{
         flex-basis: 40%; 
@@ -22,21 +22,18 @@ h1 , h2{
         flex-basis: 60%;
         padding: 40px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         
         ul li a{
             color: $lightPink;
-            text-align: center;
-            margin: 50px;
             font-size: larger;
-            
+            line-height: 35px;
         }
 
         .my_contact_title{               
             font-weight: bold;
             color: $my_yellow;
-            padding-bottom: 10px;
          }
     }
       
@@ -53,6 +50,7 @@ h1 , h2{
             flex-direction: column-reverse;
             align-items: center;
             
+            
         .box_Contact_right{
             display: flex;
             flex-direction: column-reverse;           
@@ -61,20 +59,31 @@ h1 , h2{
             ul {
                 width: 100%;
                 margin-bottom:15px ;
-            }
-
-           .titleFooter{
-              font-size: x-small;
-           }
-           
+            }        
         }
             
         .box_Contact_left > iframe{
             width: 100% !important;
             height: 100% !important;
         }
-
     }
-   
+}
 
+/* tablet version */
+@media screen and (min-width: 768px)and (max-width: 1024px){
+    
+    h2{
+        padding: 15px;
+    }
+
+    .whoContactBox{   
+        padding: 10px;   
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    
+       ul{
+           padding: 15px;
+       }
+   } 
 }

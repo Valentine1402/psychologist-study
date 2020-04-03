@@ -6,7 +6,7 @@
                 <h2><a class="my_title-footer" href="">A Milano</a></h2>
                 <p><a class="list_footer"  href="https://www.studioreveriemilano.com/"> Studio Reverie</a></p>
                 <p><a class="list_footer"  href="mailto:giannone.ornella@libero.it">giannone.ornella@libero.it</a></p>
-                    <p class="list_footer" >+39 3496376947</p>
+                <a href="Tel:+393496376947" class="list_footer">+39 3496376947</a>
                 <a class="list_footer" href="{{ route('contatti') }}"">
                     <p>Viale Papiniano 22/A</p>
                     <p>Milano, 20123</p>
@@ -18,7 +18,7 @@
                 <h2><a class="my_title-footer" href="">A Rozzano</a></h2>
                 <p><a class="list_footer" href="https://www.diagnositerapiarozzano.it/">Studio Diagnosi e Terapia nel Ciclo di Vita</a></p>
                 <p><a class="list_footer"  href="mailto:giannone.ornella@libero.it">giannone.ornella@libero.it</a></p>
-                    <p class="list_footer">+39 3496376947</p>
+                <a href="Tel:+393496376947" class="list_footer">+39 3496376947</a>
                 <a class="list_footer" href="{{ route('contatti') }}">
                     <p>Via Roma 87</p>
                     <p>Rozzano Mi, 20089</p>
@@ -31,7 +31,7 @@
             <p>©2020 Dott.sa Ornella Giannone | Powered by  <a href="https://www.linkedin.com/in/valentinagiannone/">Valentine</a> | All rights reserved </p>
                      
             <ul>
-                <li><a href=""><i class="fab fa-skype"></i></a></li>
+                <li><a href="skype:giannone.ornella?call"><i class="fab fa-skype"></i></a></li>
                 <li><a href=""><i class="fab fa-facebook ico"></i></a></li>    
                 <li><a href=""><i class="fab fa-linkedin"></i></a></li>
             </ul>
