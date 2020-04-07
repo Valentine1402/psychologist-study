@@ -61,7 +61,10 @@ main{
     .my_button {      
         text-align: center;      
         padding: 40px;
-    
+        transition: 1s;
+          &:hover {
+                    transform : scale(1.1);    
+                     }
         a{
             cursor: pointer;
             color: $my_yellow;

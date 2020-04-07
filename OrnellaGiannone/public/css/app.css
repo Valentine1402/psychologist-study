@@ -40,7 +40,7 @@ main {
   z-index: 20;
   width: 100%;
   height: 100px;
-  background-color: #d6ce55ad;
+  background-color: #f0e883;
   color: #ffffff;
   padding: 0;
 }
@@ -67,6 +67,12 @@ main {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
+  transition: 1s;
+}
+
+.my_nav .navbar-right > .menu li:hover {
+  transform: scale(1.1);
+  font-weight: bold;
 }
 
 .my_nav .navbar-right a {
@@ -291,6 +297,11 @@ main {
 .box_main_down .my_button {
   text-align: center;
   padding: 40px;
+  transition: 1s;
+}
+
+.box_main_down .my_button:hover {
+  transform: scale(1.1);
 }
 
 .box_main_down .my_button a {
@@ -493,5 +504,47 @@ h2 {
   .speak #speakTitle {
     font-size: 20px;
   }
+}
+
+.box_friends {
+  display: flex;
+}
+
+.box_friends .polaroid {
+  margin: auto;
+  padding: 50px;
+  transition: 2s;
+}
+
+.box_friends .polaroid:hover {
+  transform: scale(0.9);
+}
+
+.box_friends .polaroid .esterno {
+  height: 340px;
+  width: 300px;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.box_friends .polaroid .esterno p,
+.box_friends .polaroid .esterno a {
+  text-align: center;
+  margin-top: 20px;
+  font-family: cursive;
+  font-size: 23px;
+  color: #18293fda;
+}
+
+.box_friends .polaroid .esterno .interno {
+  height: 230px;
+  width: 250px;
+  background-color: #18293fda;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.box_friends .polaroid .esterno .interno img {
+  max-width: 100%;
 }
 
