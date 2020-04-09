@@ -8,7 +8,7 @@ main{
     height: 600px;
 
     .box_main_left{
-        flex-basis: 40%; 
+        flex-basis: 30%; 
       
         img{
             border-radius: 50%;
@@ -45,12 +45,7 @@ main{
 
     h1{
         color: #082547;
-    }
-
-    p{
-        color: #D1EAE8;
-        font-size: large;
-        text-align: center;
+        padding-bottom: 15px;
     }
 
     .btn_group{

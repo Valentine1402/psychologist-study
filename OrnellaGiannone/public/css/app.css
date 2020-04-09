@@ -175,6 +175,7 @@ main {
   width: 100%;
   display: flex;
   padding-bottom: 20px;
+  border-top: 2px solid #f0e883;
 }
 
 .my_footer .my_footer-box .my_footer-up .my_footer_left,
@@ -248,7 +249,7 @@ main {
 }
 
 .box_main_up .box_main_left {
-  flex-basis: 40%;
+  flex-basis: 30%;
 }
 
 .box_main_up .box_main_left img {
@@ -284,12 +285,7 @@ main {
 
 .box_main_down h1 {
   color: #082547;
-}
-
-.box_main_down p {
-  color: #D1EAE8;
-  font-size: large;
-  text-align: center;
+  padding-bottom: 15px;
 }
 
 .box_main_down .btn_group {
