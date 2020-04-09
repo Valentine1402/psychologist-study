@@ -19,10 +19,10 @@
             </ul>
             <ul>
                 <li><a class="my_contact_title" href="">Mezzi pubblici</a></li>
-                <li><a href=""><i class="fas fa-subway"></i> MM2 S.Agostino a 50mt</a></li>
-                <li><a href=""><i class="fas fa-subway"></i> Tram 10 a 5mt </a></li>
-                <li><a href=""><i class="fas fa-subway"></i> Tram 14 a 50mt</a></li>
-                <li><a href=""><i class="fas fa-subway"></i> Bus 94 a 300mt </a></li>
+                <li><a href=""><i class="fas fa-subway"></i> MM2 S.Agostino a 100mt</a></li>
+                <li><a href=""><i class="fas fa-subway"></i> Bus 50, 58, 68 a 300mt </a></li>
+                <li><a href=""><i class="fas fa-subway"></i> Tram 10 a 160mt </a></li>
+                <li><a href=""><i class="fas fa-subway"></i> Tram 14 a 200mt</a></li>               
                 <li><a href=""><i class="fas fa-bicycle"></i> BikeMi: S.Agostino</a></li>
                 
             </ul>
@@ -43,10 +43,10 @@
        
             <ul>
                 <li><a class="my_contact_title " href="">Mezzi pubblici</a></li>
+                <li><a href=""><i class="fas fa-taxi"></i> Taxi a 100 mt</a></li>
                 <li><a href=""><i class="fas fa-subway"></i> Tram 15 a 500 mt </a></li>
-                <li><a href=""><i class="fas fa-subway"></i> Bus 201 a 5 mt</a></li>
-                <li><a href=""><i class="fas fa-subway"></i> Bus 329 a 60 mt</a></li>
-                <li><a href=""><i class="fas fa-taxi"></i> Taxi a 30 mt</a></li>
+                <li><a href=""><i class="fas fa-subway"></i> Bus 201, 328 a 30 mt</a></li>
+                <li><a href=""><i class="fas fa-road"></i> Tangenziale Ovest 500 mt</a></li>        
             </ul>
     </div>
      <div class="box_Contact_left">

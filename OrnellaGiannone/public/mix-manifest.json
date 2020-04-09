@@ -1,5 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
-    "/js/dropdown.js": "/js/dropdown.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/js/cookieconsent.js": "/js/cookieconsent.js",
+    "/js/dropdown.js": "/js/dropdown.js"
 }

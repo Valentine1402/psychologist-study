@@ -24,6 +24,7 @@
         @Yield('whoIAm')
         @Yield('whoSpeak')
         @yield('friends')
+        @yield('cookies')
 
     </main>
 
@@ -34,5 +35,6 @@
     
     @yield('script')
     <script src="{{ mix('js/dropdown.js')}}"></script>
+    <script src="{{ mix('js/cookieconsent.js')}}"></script>
 </body>
 </html>

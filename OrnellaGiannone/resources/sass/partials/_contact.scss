@@ -6,7 +6,7 @@ h1 , h2{
 
 .whoContactBox{
     display: flex;
-    padding: 50px  40px;
+    padding: 20px  40px;
 
      .box_Contact_left{
         flex-basis: 40%; 
@@ -20,7 +20,7 @@ h1 , h2{
 
     .box_Contact_right{
         flex-basis: 60%;
-        padding: 40px;
+        //padding: 40px;
         display: flex;
         justify-content: space-around;
         align-items: center;

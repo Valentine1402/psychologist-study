@@ -1,0 +1,43 @@
+.cookiesBox{
+    padding: 50px;
+    background-color: beige;
+    color: $blueDark;
+
+        h1{
+            color: $myBlue;
+            border: 2px solid $myBlue;
+        }
+
+        h3{
+            color: $darkPink;
+        }
+
+        ul {
+            padding-left: 20px;
+            line-height: 50px;
+        }
+
+        a{
+            color:  $myBlue;
+        }
+}
+
+//responsive zone 
+
+ // smartwatch display < 749px
+@media screen and (max-width: 749px){
+
+    .cookiesBox{
+       
+        h1{
+            font-size: 100%;
+        }
+       
+        ul {
+            padding-left: 10px;
+            line-height: 25px;
+            font-size: 12px;
+        }
+    }
+    
+}

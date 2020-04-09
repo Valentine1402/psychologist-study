@@ -32,3 +32,7 @@ Route::get('/whoSpeak', function () {
 Route::get('/friends', function () {
     return view('pages.friends');
 })->name('friend');
+
+Route::get('/cookies', function () {
+    return view('pages.cookieconsent');
+})->name('cookies');

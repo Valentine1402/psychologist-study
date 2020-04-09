@@ -26,16 +26,18 @@
                 </a>
             </div>
         </div>
-        <div class="my_footer-down">
-            
-            <p>©2020 Dott.sa Ornella Giannone | Powered by  <a href="https://www.linkedin.com/in/valentinagiannone/">Valentine</a> | All rights reserved </p>
-                     
+        <div class="my_footer-down">      
+            <p>
+                ©2020 Dott.sa Ornella Giannone | Powered by  <a href="https://www.linkedin.com/in/valentinagiannone/"><strong>Valentine</strong></a>  | All rights reserved | <a href="{{ route('cookies') }}"> Privacy & Cookie Policy</a>
+            </p>    
+          
             <ul>
+                <li><a href=""></a>Social contacts </li>
                 <li><a href="skype:giannone.ornella?call"><i class="fab fa-skype"></i></a></li>
                 <li><a href=""><i class="fab fa-facebook ico"></i></a></li>    
                 <li><a href=""><i class="fab fa-linkedin"></i></a></li>
             </ul>
-            
+           
         </div>
     </div>
 </div>
