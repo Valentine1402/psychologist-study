@@ -133,6 +133,7 @@ main {
 @media screen and (max-width: 749px) {
   .my_nav {
     height: 70px;
+    width: 100%;
   }
 
   .my_nav .contact {
@@ -218,6 +219,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px 20px;
   }
 
   .my_footer .my_footer-box .my_footer-up {
@@ -225,15 +227,29 @@ main {
   }
 
   .my_footer .my_footer-box .my_footer-down {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .my_footer .my_footer-box .my_footer-down p {
+    font-size: 5px;
+  }
+}
+
+/* tablet version */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .my_footer-box .my_footer-down {
     flex-direction: column;
     align-items: center;
   }
 
-  .my_footer .my_footer-box .my_footer-down p {
-    font-size: 7px;
+  .my_footer-box .my_footer-down p {
+    font-size: 13px;
   }
 
-  .my_footer .my_footer-box .my_footer-down ul li a i {
+  .my_footer-box .my_footer-down ul li a i {
     margin-top: 15px;
   }
 }
@@ -335,6 +351,44 @@ main {
 
   .box_main_up .box_main_left img {
     max-height: 300px;
+  }
+
+  .box_main_down {
+    padding-bottom: 20px;
+  }
+
+  .box_main_down h1 {
+    font-size: 22px;
+  }
+
+  .box_main_down .my_button {
+    padding: 18px;
+  }
+}
+
+/* tablet version */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .box_main_up {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .box_main_up .box_main_right h1,
+  .box_main_up .box_main_right p {
+    font-size: medium;
+  }
+
+  .box_main_up .box_main_left img {
+    max-height: 300px;
+  }
+
+  .box_main_down {
+    padding-bottom: 20px;
+  }
+
+  .box_main_down .my_button {
+    padding: 18px;
   }
 }
 
@@ -461,7 +515,27 @@ h2 {
     display: flex;
     flex-direction: column-reverse;
     padding: 5px;
-    max-width: 600px;
+    max-width: 100%;
+  }
+
+  .whoIamBox img {
+    max-height: 300px;
+    max-width: 100%;
+  }
+
+  .down {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* tablet version */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .whoIamBox {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 5px;
   }
 
   .whoIamBox img {
@@ -501,6 +575,14 @@ h2 {
 
   .speak #speakTitle {
     font-size: 20px;
+  }
+}
+
+/* tablet version */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .speak {
+    padding: 25px;
   }
 }
 
@@ -544,6 +626,32 @@ h2 {
 
 .box_friends .polaroid .esterno .interno img {
   max-width: 100%;
+}
+
+@media screen and (max-width: 749px) {
+  .box_friends {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+
+  .box_friends .polaroid {
+    padding: 15px;
+  }
+}
+
+/* tablet version */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .box_friends {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+
+  .box_friends .polaroid {
+    padding: 15px;
+  }
 }
 
 /**

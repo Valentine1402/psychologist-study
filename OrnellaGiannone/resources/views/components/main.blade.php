@@ -1,7 +1,7 @@
     
    <div class="box_main_up">    
         <div class="box_main_left">  
-            <img src="/images/ornella.webp" alt="">
+            <img src="/images/ornella.jpg" alt="">
         </div>
         <div class="box_main_right"> 
             <h1 class="animated fadeInRight">STUDIO DI PSICOLOGIA E PSICOTERAPIA</h1>  

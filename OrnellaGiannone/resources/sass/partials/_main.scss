@@ -96,9 +96,41 @@ main{
             h1 , p{
                 font-size: medium;
             }
+        }
 
-            p{
-               // margin-top: 30px;
+        .box_main_left{
+             
+            img{                   
+                    max-height: 300px;         
+                }
+        }        
+    }
+
+    .box_main_down{
+        padding-bottom: 20px;
+
+        h1{
+            font-size: 22px;
+        }
+        
+        .my_button{
+            padding: 18px;
+        }
+    }
+ }
+
+ /* tablet version */
+@media screen and (min-width: 768px)and (max-width: 1024px){
+ 
+
+    .box_main_up{
+        padding: 10px;
+        flex-direction: column;
+
+        .box_main_right{
+
+            h1 , p{
+                font-size: medium;
             }
         }
 
@@ -107,7 +139,16 @@ main{
             img{                   
                     max-height: 300px;         
                 }
-        }   
-        
+        }        
     }
- }
+
+    .box_main_down{
+        
+        padding-bottom: 20px;
+
+        .my_button{
+            padding: 18px;
+        }
+    }
+    
+}

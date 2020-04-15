@@ -31,10 +31,8 @@ display: flex;
                 margin:auto;
                 margin-top: 20px;
                 img{
-                    max-width: 100%;
-                     
+                    max-width: 100%;               
                 }
-                
             }
 
         }
@@ -42,5 +40,31 @@ display: flex;
 }
 
 
+//responsive zone 
 
+// smartwatch display < 749px
+ @media screen and (max-width: 749px){
+     .box_friends{
+         display: flex;
+         flex-wrap: wrap;
+         padding: 15px ;
 
+         .polaroid{
+            padding: 15px;
+         }
+     }
+ }
+
+  /* tablet version */
+@media screen and (min-width: 768px)and (max-width: 1024px){
+     
+    .box_friends{
+         display: flex;
+         flex-wrap: wrap;
+         padding: 15px ;
+
+         .polaroid{
+            padding: 15px;
+         }
+     }
+}
